@@ -1,10 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Moovie Time
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Simple Movie Web Portal based on [Nuxt 3](https://nuxt.com/), [Tailwind CSS](https://tailwindcss.com/) and [OMDB API](https://www.omdbapi.com/)
+
+## Prerequisites
+
+- Node.js - v16.10.0 or newer
 
 ## Setup
 
-Make sure to install the dependencies:
+1. Install the dependencies:
 
 ```bash
 # yarn
@@ -17,26 +21,19 @@ npm install
 pnpm install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`
+2. Run on development
 
 ```bash
+# yarn
+yarn dev
+
+# npm
 npm run dev
+
+# pnpm
+pnpm dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
+3. Open `localhost:3000` on your browser
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
