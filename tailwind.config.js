@@ -7,8 +7,19 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
+  variants: {
+    extend: {
+      textDecoration: ['focus-visible'],
+    }
+  },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'gunmetal': '#292E35',
+        'dark-gunmetal': '#1E232A',
+        'eerie-black': '#15191E'
+      }
+    },
   },
   plugins: [],
 }
